@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana;
+    background-color: #e0e0dd;
+    margin: 0;
+}
+h2{
+    text-align: center;
+}
+.sobre p{
+    text-align: justify;
+    padding: 10px;
+}
+header {
+    background-color: rgb(248, 253, 204);
+    color: black;
+    text-align: center;
+    padding: 0.1px;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+main {
+    padding: 20px;
+}
+section {
+    border-radius: 5px 5px 10px 10px;
+    border-bottom: 5px solid #e0e0dd;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+}
+img {
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
